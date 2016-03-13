@@ -1,11 +1,20 @@
-#' @name siatka
-#' @title Pollen count of Alnus, Betula, and Corylus in given polish sites
+#' @title Siatka
 #'
-#' @description aerobiologia contain data about pollen count of  Alnus, Betula, 
-#' and Corylus in given polish sites (without incomplete data from Gdańsk in years 1998 and 1999)
+#' @description Siatka badanego obszaru.
 #' 
 #' @docType data
 #'
-#' @format data.frame 
+#' @format SpatialPixelsDataFrame zawierajacy 127 wierszy i 96 kolumn oraz 4 zmienne
+#' \itemize{
+#'   \item srtm  srtm.
+#'   \item clc  clc.
+#'   \item ndvi  ndvi.
+#'   \item savi  savi.
+#' } 
+#' 
+#' @examples
+#' dim(siatka)
+#' head(siatka)
+#' summary(siatka)
 
-NULL
+"siatka"

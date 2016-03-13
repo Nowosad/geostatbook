@@ -1,11 +1,16 @@
-#' @name punkty_ndvi
-#' @title Pollen count of Alnus, Betula, and Corylus in given polish sites
+#' @title Dane punktowe NDVI
 #'
-#' @description aerobiologia contain data about pollen count of  Alnus, Betula, 
-#' and Corylus in given polish sites (without incomplete data from Gdańsk in years 1998 and 1999)
+#' @description Zbior danych punktowych NDVI.
 #' 
 #' @docType data
 #'
-#' @format data.frame 
+#' @format SpatialPointsDataFrame zawierajacy 1011 obserwacje i 1 zmienna
+#' \itemize{
+#'   \item ndvi  ndvi.
+#' } 
+#' @examples
+#' dim(punkty_ndvi)
+#' head(punkty_ndvi)
+#' summary(punkty_ndvi)
 
-NULL
+"punkty_ndvi"

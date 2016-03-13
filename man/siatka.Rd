@@ -3,10 +3,24 @@
 \docType{data}
 \name{siatka}
 \alias{siatka}
-\title{Pollen count of Alnus, Betula, and Corylus in given polish sites}
-\format{data.frame}
-\description{
-aerobiologia contain data about pollen count of  Alnus, Betula, 
-and Corylus in given polish sites (without incomplete data from Gdańsk in years 1998 and 1999)
+\title{Siatka}
+\format{SpatialPixelsDataFrame zawierajacy 127 wierszy i 96 kolumn oraz 4 zmienne
+\itemize{
+  \item srtm  srtm.
+  \item clc  clc.
+  \item ndvi  ndvi.
+  \item savi  savi.
+}}
+\usage{
+siatka
 }
+\description{
+Siatka badanego obszaru.
+}
+\examples{
+dim(siatka)
+head(siatka)
+summary(siatka)
+}
+\keyword{datasets}
 

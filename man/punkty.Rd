@@ -3,10 +3,25 @@
 \docType{data}
 \name{punkty}
 \alias{punkty}
-\title{Pollen count of Alnus, Betula, and Corylus in given polish sites}
-\format{data.frame}
-\description{
-aerobiologia contain data about pollen count of  Alnus, Betula, 
-and Corylus in given polish sites (without incomplete data from Gdańsk in years 1998 and 1999)
+\title{Dane punktowe}
+\format{SpatialPointsDataFrame zawierajacy 252 obserwacje i 5 zmiennych
+\itemize{
+  \item srtm  srtm.
+  \item clc  clc.
+  \item temp  temperatura.
+  \item ndvi  ndvi.
+  \item savi  savi.
+}}
+\usage{
+punkty
 }
+\description{
+Zbior danych punktowych.
+}
+\examples{
+dim(punkty)
+head(punkty)
+summary(punkty)
+}
+\keyword{datasets}
 

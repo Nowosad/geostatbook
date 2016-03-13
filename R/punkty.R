@@ -1,11 +1,20 @@
-#' @name punkty
-#' @title Pollen count of Alnus, Betula, and Corylus in given polish sites
+#' @title Dane punktowe
 #'
-#' @description aerobiologia contain data about pollen count of  Alnus, Betula, 
-#' and Corylus in given polish sites (without incomplete data from Gdańsk in years 1998 and 1999)
+#' @description Zbior danych punktowych.
 #' 
 #' @docType data
 #'
-#' @format data.frame 
+#' @format SpatialPointsDataFrame zawierajacy 252 obserwacje i 5 zmiennych
+#' \itemize{
+#'   \item srtm  srtm.
+#'   \item clc  clc.
+#'   \item temp  temperatura.
+#'   \item ndvi  ndvi.
+#'   \item savi  savi.
+#' } 
+#' @examples
+#' dim(punkty)
+#' head(punkty)
+#' summary(punkty)
 
-NULL
+"punkty"
