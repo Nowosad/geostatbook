@@ -22,7 +22,9 @@ Imports:
     rgdal,
     rgeos,
     sp
-Remotes: nowosad/geoplus
+Remotes: 
+    nowosad/geoplus,
+    nowosad/geostatbook
 LazyData: true
 License: CC0
 RoxygenNote: 5.0.1
