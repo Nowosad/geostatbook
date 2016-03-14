@@ -5,7 +5,7 @@ env:
   global:
     - NOT_CRAN=true
 before_install: 
-  - echo "options(repos = c(CRAN='http://cran.rstudio.com'))" > ~/.Rprofile
+  - echo "options(repos = c(CRAN='http://cloud.r-project.org/'))" > ~/.Rprofile
 apt_packages:
  - r-cran-rgdal
  - r-cran-ncdf4
