@@ -12,6 +12,7 @@
 #'   \item ndvi  ndvi.
 #'   \item savi  savi.
 #' } 
+#' 
 #' @examples
 #' library('geostatbook')
 #' data(punkty)
