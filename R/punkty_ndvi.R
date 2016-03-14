@@ -9,6 +9,8 @@
 #'   \item ndvi  ndvi.
 #' } 
 #' @examples
+#' library('geostatbook')
+#' data(punkty_ndvi)
 #' dim(punkty_ndvi)
 #' head(punkty_ndvi)
 #' summary(punkty_ndvi)

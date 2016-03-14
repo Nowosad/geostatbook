@@ -13,6 +13,8 @@
 #'   \item savi  savi.
 #' } 
 #' @examples
+#' library('geostatbook')
+#' data(punkty)
 #' dim(punkty)
 #' head(punkty)
 #' summary(punkty)

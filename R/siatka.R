@@ -13,6 +13,8 @@
 #' } 
 #' 
 #' @examples
+#' library('geostatbook')
+#' data(siatka)
 #' dim(siatka)
 #' head(siatka)
 #' summary(siatka)
