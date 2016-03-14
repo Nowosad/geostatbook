@@ -7,7 +7,7 @@
 #' @format SpatialPointsDataFrame zawierajacy 252 obserwacje i 5 zmiennych
 #' \itemize{
 #'   \item srtm  srtm.
-#'   \item clc  clc.
+#'   \item clc   clc.
 #'   \item temp  temperatura.
 #'   \item ndvi  ndvi.
 #'   \item savi  savi.

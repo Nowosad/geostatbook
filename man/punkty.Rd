@@ -7,7 +7,7 @@
 \format{SpatialPointsDataFrame zawierajacy 252 obserwacje i 5 zmiennych
 \itemize{
   \item srtm  srtm.
-  \item clc  clc.
+  \item clc   clc.
   \item temp  temperatura.
   \item ndvi  ndvi.
   \item savi  savi.
@@ -19,6 +19,8 @@ punkty
 Zbior danych punktowych.
 }
 \examples{
+library('geostatbook')
+data(punkty)
 dim(punkty)
 head(punkty)
 summary(punkty)

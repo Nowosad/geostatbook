@@ -1,6 +1,6 @@
 Package: geostatbook
 Title: Geostatystyka w R
-Version: 0.09
+Version: 0.1.0
 Authors@R: person("Jakub", "Nowosad", email="nowosad.jakub@gmail.com", role=c("aut", "cre"))
 Description: Materialy do skryptu Geostatystyka w R. Work in progress.
 Depends:
@@ -24,5 +24,5 @@ Imports:
 Remotes: 
     nowosad/geoplus
 LazyData: false
-License: CC0
+License: GPL-3
 RoxygenNote: 5.0.1

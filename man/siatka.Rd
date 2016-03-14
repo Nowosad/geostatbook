@@ -7,7 +7,7 @@
 \format{SpatialPixelsDataFrame zawierajacy 127 wierszy i 96 kolumn oraz 4 zmienne
 \itemize{
   \item srtm  srtm.
-  \item clc  clc.
+  \item clc   clc.
   \item ndvi  ndvi.
   \item savi  savi.
 }}
@@ -18,6 +18,8 @@ siatka
 Siatka badanego obszaru.
 }
 \examples{
+library('geostatbook')
+data(siatka)
 dim(siatka)
 head(siatka)
 summary(siatka)

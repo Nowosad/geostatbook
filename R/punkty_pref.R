@@ -1,0 +1,22 @@
+#' @title Dane punktowe preferencyjne
+#'
+#' @description Zbior danych punktowych o probkowaniu preferencyjnym.
+#' 
+#' @docType data
+#'
+#' @format SpatialPointsDataFrame zawierajacy 239 obserwacji i 5 zmiennych
+#' \itemize{
+#'   \item srtm  srtm.
+#'   \item clc   clc.
+#'   \item temp  temperatura.
+#'   \item ndvi  ndvi.
+#'   \item savi  savi.
+#' } 
+#' @examples
+#' library('geostatbook')
+#' data(punkty_pref)
+#' dim(punkty_pref)
+#' head(punkty_pref)
+#' summary(punkty_pref)
+
+"punkty_pref"

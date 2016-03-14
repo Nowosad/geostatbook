@@ -15,6 +15,8 @@ punkty_ndvi
 Zbior danych punktowych NDVI.
 }
 \examples{
+library('geostatbook')
+data(punkty_ndvi)
 dim(punkty_ndvi)
 head(punkty_ndvi)
 summary(punkty_ndvi)
