@@ -9,3 +9,18 @@ before_install:
 apt_packages:
  - r-cran-rgdal
  - r-cran-ncdf4
+r_packages:
+ - caret
+ - corrplot
+ - dismo
+ - fields
+ - geoR
+ - ggplot2
+ - gridExtra
+ - gstat
+ - pgirmess
+ - raster
+ - rasterVis
+ - rgdal
+ - rgeos
+ - sp
