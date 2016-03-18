@@ -24,5 +24,5 @@ Imports:
 Remotes: 
     nowosad/geoplus
 LazyData: false
-License: GPL-3
+License: CC0
 RoxygenNote: 5.0.1
