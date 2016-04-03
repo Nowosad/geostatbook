@@ -12,6 +12,13 @@
 #'   \item savi  savi.
 #' } 
 #' 
+#' @references
+#' \itemize{
+#'   \item \url{http://srtm.csi.cgiar.org}
+#'   \item \url{http://www.eea.europa.eu/data-and-maps}
+#'   \item \url{http://landsat-pds.s3.amazonaws.com/}
+#' }
+#' 
 #' @examples
 #' library('geostatbook')
 #' data(siatka)

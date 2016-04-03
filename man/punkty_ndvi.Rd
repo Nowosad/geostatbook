@@ -21,5 +21,10 @@ dim(punkty_ndvi)
 head(punkty_ndvi)
 summary(punkty_ndvi)
 }
+\references{
+\itemize{
+  \item \url{http://landsat-pds.s3.amazonaws.com/}
+}
+}
 \keyword{datasets}
 

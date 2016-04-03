@@ -25,5 +25,12 @@ dim(punkty_pref)
 head(punkty_pref)
 summary(punkty_pref)
 }
+\references{
+\itemize{
+  \item \url{http://srtm.csi.cgiar.org}
+  \item \url{http://www.eea.europa.eu/data-and-maps}
+  \item \url{http://landsat-pds.s3.amazonaws.com/}
+}
+}
 \keyword{datasets}
 

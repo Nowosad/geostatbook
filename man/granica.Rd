@@ -18,5 +18,8 @@ dim(granica)
 summary(granica)
 plot(granica)
 }
+\references{
+\url{http://www.gdos.gov.pl/dane-i-metadane}
+}
 \keyword{datasets}
 

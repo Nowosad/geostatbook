@@ -8,6 +8,12 @@
 #' \itemize{
 #'   \item ndvi  ndvi.
 #' } 
+#' 
+#' @references
+#' \itemize{
+#'   \item \url{http://landsat-pds.s3.amazonaws.com/}
+#' }
+#' 
 #' @examples
 #' library('geostatbook')
 #' data(punkty_ndvi)
