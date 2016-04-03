@@ -4,7 +4,7 @@
 #' 
 #' @docType data
 #'
-#' @format SpatialPointsDataFrame zawierajacy 1011 obserwacje i 1 zmienna
+#' @format SpatialPointsDataFrame zawierajacy 1011 obserwacji i 1 zmienna
 #' \itemize{
 #'   \item ndvi  ndvi.
 #' } 
