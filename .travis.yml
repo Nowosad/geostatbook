@@ -5,5 +5,5 @@ dist: trusty
 addons:
   apt:
     packages:
-      - libgdal-dev
-- libproj-dev
+        - libgdal-dev
+        - libproj-dev
