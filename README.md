@@ -4,6 +4,8 @@
 
 Pakiet zawierający dane do skryptu akademickiego "Geostatystyka w R" znajdującego się pod adresem https://bookdown.org/nowosad/Geostatystyka/.
 
+<a href="https://bookdown.org/nowosad/Geostatystyka/" rel="">![Book of Abstracts](https://bookdown.org/nowosad/Geostatystyka/Rfigs/book_cover.png)</a>
+
 ## Instalacja
 
 ``` r
