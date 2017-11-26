@@ -1,12 +1,13 @@
 Package: geostatbook
 Title: Geostatystyka w R
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: person("Jakub", "Nowosad", email="nowosad.jakub@gmail.com", role=c("aut", "cre"))
 Description: Materialy do skryptu Geostatystyka w R.
 Depends:
     R (>= 3.2.3)
 URL: https://bookdown.org/nowosad/Geostatystyka/
 Imports:
+    bookdown,
     caret,
     corrplot,
     dismo,
@@ -22,8 +23,6 @@ Imports:
     rgdal,
     rgeos,
     sp
-Remotes: 
-    nowosad/geoplus
 LazyData: false
 License: CC0
 RoxygenNote: 5.0.1
