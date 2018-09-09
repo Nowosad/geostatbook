@@ -4,7 +4,7 @@
 \name{punkty}
 \alias{punkty}
 \title{Dane punktowe}
-\format{SpatialPointsDataFrame zawierajacy 252 obserwacje i 5 zmiennych
+\format{Obiekt sf zawierajacy 252 obserwacje i 5 zmiennych
 \itemize{
   \item srtm  srtm.
   \item clc   clc.
@@ -19,7 +19,7 @@ punkty
 Zbior danych punktowych.
 }
 \examples{
-library('geostatbook')
+library(geostatbook)
 data(punkty)
 dim(punkty)
 head(punkty)
@@ -33,4 +33,3 @@ summary(punkty)
 }
 }
 \keyword{datasets}
-

@@ -27,4 +27,3 @@ summary(punkty_ndvi)
 }
 }
 \keyword{datasets}
-
