@@ -4,9 +4,9 @@ Version: 0.2.9.9999
 Authors@R: person("Jakub", "Nowosad", 
     email = "nowosad.jakub@gmail.com", 
     role = c("aut", "cre"))
-Description: Materialy do skryptu Geostatystyka w R.
+Description: Materialy do skryptu Geostatystyka w R, druga edycja.
 Depends:
-    R (>= 3.2.3)
+    R (>= 3.5)
 URL: https://bookdown.org/nowosad/Geostatystyka/
 Imports:
     caret,
