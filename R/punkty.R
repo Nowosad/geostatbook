@@ -4,7 +4,7 @@
 #' 
 #' @docType data
 #'
-#' @format Obiekt sf zawierajacy 252 obserwacje i 5 zmiennych
+#' @format SpatialPointsDataFrame zawierajacy 252 obserwacje i 5 zmiennych
 #' \itemize{
 #'   \item srtm  srtm.
 #'   \item clc   clc.
@@ -20,8 +20,9 @@
 #'   \item \url{http://landsat-pds.s3.amazonaws.com/}
 #' }
 #' 
+#' 
 #' @examples
-#' library(geostatbook)
+#' library('geostatbook')
 #' data(punkty)
 #' dim(punkty)
 #' head(punkty)

@@ -32,3 +32,4 @@ summary(siatka)
 }
 }
 \keyword{datasets}
+

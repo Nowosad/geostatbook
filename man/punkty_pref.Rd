@@ -33,3 +33,4 @@ summary(punkty_pref)
 }
 }
 \keyword{datasets}
+

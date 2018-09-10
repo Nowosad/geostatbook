@@ -4,7 +4,7 @@
 \name{granica}
 \alias{granica}
 \title{Granica}
-\format{Obiekt sf zawierajacy obszar Suwalskiego Parku Krajobrazowego}
+\format{SpatialPolygonsDataFrame zawierajacy obszar Suwalskiego Parku Krajobrazowego}
 \usage{
 granica
 }
@@ -12,7 +12,7 @@ granica
 Granica badanego obszaru.
 }
 \examples{
-library(geostatbook)
+library('geostatbook')
 data(granica)
 dim(granica)
 summary(granica)
@@ -22,3 +22,4 @@ plot(granica)
 \url{http://www.gdos.gov.pl/dane-i-metadane}
 }
 \keyword{datasets}
+
