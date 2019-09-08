@@ -4,7 +4,7 @@
 \name{punkty}
 \alias{punkty}
 \title{Dane punktowe}
-\format{Obiekt sf zawierajacy 248 obserwacje i 5 zmiennych
+\format{Obiekt sf zawierajacy 242 obserwacje i 5 zmiennych
 \itemize{
   \item srtm  srtm.
   \item clc   clc.

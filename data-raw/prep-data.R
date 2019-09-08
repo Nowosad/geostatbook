@@ -12,11 +12,13 @@ punkty_sf = na.omit(punkty_sf)
 punkty_ndvi_csv = read.csv("inst/dane/punkty_ndvi.csv")
 punkty_ndvi_sf = st_as_sf(punkty_ndvi_csv, coords = c("x", "y"))
 punkty_ndvi_sf = st_set_crs(punkty_ndvi_sf, 2180)
+punkty_ndvi_sf = na.omit(punkty_ndvi_sf)
 
 # punkty_pref -------------------------------------------------------------
 punkty_pref_csv = read.csv("inst/dane/punkty_pref.csv")
 punkty_pref_sf = st_as_sf(punkty_pref_csv, coords = c("x", "y"))
 punkty_pref_sf = st_set_crs(punkty_pref_sf, 2180)
+punkty_pref_sf = na.omit(punkty_pref_sf)
 
 # granica -----------------------------------------------------------------
 granica_sf = st_read(dsn = "inst/dane/granica.gpkg")
