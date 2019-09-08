@@ -4,7 +4,7 @@
 \name{punkty_ndvi}
 \alias{punkty_ndvi}
 \title{Dane punktowe NDVI}
-\format{SpatialPointsDataFrame zawierajacy 1011 obserwacji i 1 zmienna
+\format{SpatialPointsDataFrame zawierajacy 993 obserwacji i 1 zmienna
 \itemize{
   \item ndvi  ndvi.
 }}
@@ -15,7 +15,8 @@ punkty_ndvi
 Zbior danych punktowych NDVI.
 }
 \examples{
-library('geostatbook')
+library(sf)
+library(geostatbook)
 data(punkty_ndvi)
 dim(punkty_ndvi)
 head(punkty_ndvi)
@@ -27,4 +28,3 @@ summary(punkty_ndvi)
 }
 }
 \keyword{datasets}
-

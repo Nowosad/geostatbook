@@ -4,7 +4,7 @@
 #' 
 #' @docType data
 #'
-#' @format SpatialPointsDataFrame zawierajacy 1011 obserwacji i 1 zmienna
+#' @format SpatialPointsDataFrame zawierajacy 993 obserwacji i 1 zmienna
 #' \itemize{
 #'   \item ndvi  ndvi.
 #' } 
@@ -15,7 +15,8 @@
 #' }
 #' 
 #' @examples
-#' library('geostatbook')
+#' library(sf)
+#' library(geostatbook)
 #' data(punkty_ndvi)
 #' dim(punkty_ndvi)
 #' head(punkty_ndvi)

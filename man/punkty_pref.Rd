@@ -4,7 +4,7 @@
 \name{punkty_pref}
 \alias{punkty_pref}
 \title{Dane punktowe preferencyjne}
-\format{SpatialPointsDataFrame zawierajacy 239 obserwacji i 5 zmiennych
+\format{SpatialPointsDataFrame zawierajacy 265 obserwacji i 5 zmiennych
 \itemize{
   \item srtm  srtm.
   \item clc   clc.
@@ -19,7 +19,8 @@ punkty_pref
 Zbior danych punktowych o probkowaniu preferencyjnym.
 }
 \examples{
-library('geostatbook')
+library(sf)
+library(geostatbook)
 data(punkty_pref)
 dim(punkty_pref)
 head(punkty_pref)
@@ -33,4 +34,3 @@ summary(punkty_pref)
 }
 }
 \keyword{datasets}
-

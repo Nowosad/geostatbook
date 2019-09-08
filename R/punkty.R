@@ -4,7 +4,7 @@
 #' 
 #' @docType data
 #'
-#' @format SpatialPointsDataFrame zawierajacy 252 obserwacje i 5 zmiennych
+#' @format Obiekt sf zawierajacy 242 obserwacje i 5 zmiennych
 #' \itemize{
 #'   \item srtm  srtm.
 #'   \item clc   clc.
@@ -22,9 +22,9 @@
 #' 
 #' 
 #' @examples
-#' library('geostatbook')
+#' library(sf)
+#' library(geostatbook)
 #' data(punkty)
-#' dim(punkty)
 #' head(punkty)
 #' summary(punkty)
 

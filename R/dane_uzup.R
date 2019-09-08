@@ -4,7 +4,13 @@
 #' 
 #' @docType data
 #'
-#' @format Obiekt stars zawierajacy 127 wierszy i 96 kolumn
+#' @format Obiekt stars zawierajacy 127 wierszy i 96 kolumn oraz cztery zmienne:
+#' \itemize{
+#'   \item srtm srtm
+#'   \item clc clc
+#'   \item ndvi ndvi
+#'   \item savi savi
+#' }
 #' 
 #' @references
 #' \itemize{
@@ -16,7 +22,7 @@
 #' @examples
 #' library(stars)
 #' library(geostatbook)
-#' data(siatka)
-#' dim(siatka)
-#' head(siatka)
-"siatka"
+#' data(dane_uzup)
+#' dim(dane_uzup)
+#' head(dane_uzup)
+"dane_uzup"

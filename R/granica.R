@@ -4,16 +4,15 @@
 #' 
 #' @docType data
 #'
-#' @format SpatialPolygonsDataFrame zawierajacy obszar Suwalskiego Parku Krajobrazowego
+#' @format Obiekt sf zawierajacy obszar Suwalskiego Parku Krajobrazowego
 #' 
 #' @references
 #' \url{http://www.gdos.gov.pl/dane-i-metadane}
 #' 
 #' @examples
-#' library('geostatbook')
+#' library(sf)
+#' library(geostatbook)
 #' data(granica)
-#' dim(granica)
 #' summary(granica)
 #' plot(granica)
-
 "granica"
