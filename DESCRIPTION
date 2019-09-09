@@ -18,6 +18,8 @@ Imports:
     rsample,
     sf,
     stars
+Remotes:
+    r-spatial/gstat
 LazyData: false
 License: CC0
 RoxygenNote: 6.1.1
