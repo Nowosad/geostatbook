@@ -4,7 +4,9 @@
 \name{siatka}
 \alias{siatka}
 \title{Siatka}
-\format{Obiekt stars zawierajacy 127 wierszy i 96 kolumn}
+\format{
+Obiekt stars zawierajacy 127 wierszy i 96 kolumn
+}
 \usage{
 siatka
 }
@@ -16,7 +18,7 @@ library(stars)
 library(geostatbook)
 data(siatka)
 dim(siatka)
-head(siatka)
+siatka
 }
 \references{
 \itemize{

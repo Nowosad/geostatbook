@@ -4,13 +4,15 @@
 \name{dane_uzup}
 \alias{dane_uzup}
 \title{Siatka}
-\format{Obiekt stars zawierajacy 127 wierszy i 96 kolumn oraz cztery zmienne:
+\format{
+Obiekt stars zawierajacy 127 wierszy i 96 kolumn oraz cztery zmienne:
 \itemize{
   \item srtm srtm
   \item clc clc
   \item ndvi ndvi
   \item savi savi
-}}
+}
+}
 \usage{
 dane_uzup
 }
@@ -22,7 +24,7 @@ library(stars)
 library(geostatbook)
 data(dane_uzup)
 dim(dane_uzup)
-head(dane_uzup)
+dane_uzup
 }
 \references{
 \itemize{

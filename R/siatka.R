@@ -18,5 +18,5 @@
 #' library(geostatbook)
 #' data(siatka)
 #' dim(siatka)
-#' head(siatka)
+#' siatka
 "siatka"

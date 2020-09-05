@@ -4,14 +4,16 @@
 \name{punkty_pref}
 \alias{punkty_pref}
 \title{Dane punktowe preferencyjne}
-\format{SpatialPointsDataFrame zawierajacy 264 obserwacje i 5 zmiennych
+\format{
+SpatialPointsDataFrame zawierajacy 264 obserwacje i 5 zmiennych
 \itemize{
   \item srtm  srtm.
   \item clc   clc.
   \item temp  temperatura.
   \item ndvi  ndvi.
   \item savi  savi.
-}}
+}
+}
 \usage{
 punkty_pref
 }

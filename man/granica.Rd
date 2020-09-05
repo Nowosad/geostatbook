@@ -4,7 +4,9 @@
 \name{granica}
 \alias{granica}
 \title{Granica}
-\format{Obiekt sf zawierajacy obszar Suwalskiego Parku Krajobrazowego}
+\format{
+Obiekt sf zawierajacy obszar Suwalskiego Parku Krajobrazowego
+}
 \usage{
 granica
 }

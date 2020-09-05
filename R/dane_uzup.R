@@ -24,5 +24,5 @@
 #' library(geostatbook)
 #' data(dane_uzup)
 #' dim(dane_uzup)
-#' head(dane_uzup)
+#' dane_uzup
 "dane_uzup"
