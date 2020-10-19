@@ -8,7 +8,7 @@
 Obiekt sf zawierajacy obszar Suwalskiego Parku Krajobrazowego
 }
 \usage{
-granica
+data(granica)
 }
 \description{
 Granica badanego obszaru.
@@ -19,6 +19,7 @@ library(geostatbook)
 data(granica)
 summary(granica)
 plot(granica)
+
 }
 \references{
 \url{http://www.gdos.gov.pl/dane-i-metadane}

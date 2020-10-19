@@ -15,7 +15,7 @@ Obiekt sf zawierajacy 242 obserwacje i 5 zmiennych
 }
 }
 \usage{
-punkty
+data(punkty)
 }
 \description{
 Zbior danych punktowych.
@@ -26,6 +26,7 @@ library(geostatbook)
 data(punkty)
 head(punkty)
 summary(punkty)
+
 }
 \references{
 \itemize{

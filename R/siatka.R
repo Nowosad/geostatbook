@@ -4,7 +4,7 @@
 #' 
 #' @docType data
 #'
-#' @format Obiekt stars zawierajacy 127 wierszy i 96 kolumn
+#' @format Obiekt stars zawierajacy 96 wierszy i 127 kolumn.
 #' 
 #' @references
 #' \itemize{
@@ -19,4 +19,6 @@
 #' data(siatka)
 #' dim(siatka)
 #' siatka
+#' 
+#' @usage data(siatka)
 "siatka"

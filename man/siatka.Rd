@@ -5,10 +5,10 @@
 \alias{siatka}
 \title{Siatka}
 \format{
-Obiekt stars zawierajacy 127 wierszy i 96 kolumn
+Obiekt stars zawierajacy 96 wierszy i 127 kolumn.
 }
 \usage{
-siatka
+data(siatka)
 }
 \description{
 Siatka badanego obszaru.
@@ -19,6 +19,7 @@ library(geostatbook)
 data(siatka)
 dim(siatka)
 siatka
+
 }
 \references{
 \itemize{

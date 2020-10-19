@@ -27,5 +27,6 @@
 #' dim(punkty_pref)
 #' head(punkty_pref)
 #' summary(punkty_pref)
-
+#' 
+#' @usage data(punkty_pref)
 "punkty_pref"

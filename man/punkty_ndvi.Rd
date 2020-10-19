@@ -11,7 +11,7 @@ SpatialPointsDataFrame zawierajacy 993 obserwacji i 1 zmienna
 }
 }
 \usage{
-punkty_ndvi
+data(punkty_ndvi)
 }
 \description{
 Zbior danych punktowych NDVI.
@@ -23,6 +23,7 @@ data(punkty_ndvi)
 dim(punkty_ndvi)
 head(punkty_ndvi)
 summary(punkty_ndvi)
+
 }
 \references{
 \itemize{

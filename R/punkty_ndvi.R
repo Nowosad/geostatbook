@@ -21,5 +21,6 @@
 #' dim(punkty_ndvi)
 #' head(punkty_ndvi)
 #' summary(punkty_ndvi)
-
+#' 
+#' @usage data(punkty_ndvi)
 "punkty_ndvi"

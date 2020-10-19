@@ -15,4 +15,6 @@
 #' data(granica)
 #' summary(granica)
 #' plot(granica)
+#' 
+#' @usage data(granica)
 "granica"

@@ -15,7 +15,7 @@ SpatialPointsDataFrame zawierajacy 264 obserwacje i 5 zmiennych
 }
 }
 \usage{
-punkty_pref
+data(punkty_pref)
 }
 \description{
 Zbior danych punktowych o probkowaniu preferencyjnym.
@@ -27,6 +27,7 @@ data(punkty_pref)
 dim(punkty_pref)
 head(punkty_pref)
 summary(punkty_pref)
+
 }
 \references{
 \itemize{

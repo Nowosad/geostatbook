@@ -4,7 +4,7 @@
 #' 
 #' @docType data
 #'
-#' @format Obiekt stars zawierajacy 127 wierszy i 96 kolumn oraz cztery zmienne:
+#' @format Obiekt stars zawierajacy 96 wierszy i 127 kolumn oraz cztery zmienne:
 #' \itemize{
 #'   \item srtm srtm
 #'   \item clc clc
@@ -25,4 +25,6 @@
 #' data(dane_uzup)
 #' dim(dane_uzup)
 #' dane_uzup
+#' 
+#' @usage data(dane_uzup)
 "dane_uzup"

@@ -27,5 +27,6 @@
 #' data(punkty)
 #' head(punkty)
 #' summary(punkty)
-
+#' 
+#' @usage data(punkty)
 "punkty"
