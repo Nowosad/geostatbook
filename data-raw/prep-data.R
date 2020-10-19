@@ -22,9 +22,11 @@ punkty_pref_sf = na.omit(punkty_pref_sf)
 
 # granica -----------------------------------------------------------------
 granica_sf = st_read(dsn = "inst/dane/granica.gpkg")
+granica_sf = st_set_crs(granica_sf, 2180)
 
 # siatka ------------------------------------------------------------------
 siatka_stars = read_stars("inst/dane/siatka-all.tif")
+siatka_stars = st_set_crs(siatka_stars, 2180)
 siatka_stars2 = split(siatka_stars, "band")
 
 write_stars(siatka_stars2[1], "inst/dane/srtm.tif")
