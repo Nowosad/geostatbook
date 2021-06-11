@@ -1,6 +1,8 @@
 # geostatbook
 
-[![Build Status](https://travis-ci.org/Nowosad/geostatbook.png?branch=master)](https://travis-ci.org/Nowosad/geostatbook)
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/Nowosad/geostatbook/workflows/R-CMD-check/badge.svg)](https://github.com/Nowosad/geostatbook/actions)
+  <!-- badges: end -->
 
 Pakiet zawierający dane do trzeciego wydania skryptu akademickiego "Geostatystyka w R" znajdującego się pod adresem https://bookdown.org/nowosad/Geostatystyka/.
 
